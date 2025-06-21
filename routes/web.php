@@ -20,3 +20,15 @@ Route::middleware(['auth'])->group(function () {
 Route::get('/about', function () {
     return view('about');
 });
+
+Route::get('/katalog', function () {
+    return view('katalog');
+});
+
+Route::get('/kontak', function () {
+    return view('kontak');
+});
+
+Route::get('/portofolio', function () {
+    return view('portofolio');
+});
